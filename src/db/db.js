@@ -7,8 +7,8 @@ const pool = new Pool({
     user: config.DB_USER,
     password: config.DB_PASSWORD,
     database: config.DB_DBNAME
-})
+});
 
 module.exports = {
     pool
-}
+};

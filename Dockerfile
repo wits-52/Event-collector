@@ -6,7 +6,6 @@ RUN npm install
 COPY . .
 
 EXPOSE 7007
-CMD npm run startApp
-# ENTRYPOINT [ "np", "docker-entrypoint.sh" ] 
+ENTRYPOINT [ "/bin/bash", "docker-entrypoint.sh" ] 
 
 
