@@ -41,3 +41,9 @@ ASSUMPTIONS:
         "error"
         "message"
     }
+
+RUNNING THE APPLICATION:
+
+`There are 2 ways to run this application`:
+    1. docker-compose build && docker-compose up -d
+    2. npm run devPipeline : this will run npm test before docker-compose build && docker-compose up -d
